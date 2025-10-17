@@ -1,0 +1,41 @@
+<!-- <app-navbar></app-navbar>
+<router-outlet></router-outlet>
+<app-footer></app-footer> -->
+
+<section
+  class="flex flex-col justify-evenly items-center h-screen bg-white dark:bg-gray-900 duration-1000"
+>
+  <h2 class="text-6xl text-center" *ngIf="user()">
+    Welcome <br />
+    <span class="text-brand-500">{{ user()?.name }}</span>
+  </h2>
+  <button
+    routerLink="auth"
+    class="bg-gray-900 text-white rounded-2xl px-5 py-3 hover:bg-gray-600 duration-1000 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-400 font-bold dark:hover:text-white"
+  >
+    Go To Auth Module
+  </button>
+
+  <h3 class="text-4xl" *ngIf="user()">
+    Your Role Is
+    <span class="text-brand-700 uppercase font-bold">{{ user()?.role }}</span>
+  </h3>
+  <button
+    routerLink="admin"
+    class="bg-gray-900 text-white rounded-2xl px-5 py-3 hover:bg-gray-600 duration-1000 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-400 font-bold dark:hover:text-white"
+  >
+    Go To Dashboard Module
+  </button>
+
+  <button
+    *ngIf="user()"
+    (click)="logout()"
+    class="bg-gray-900 text-white rounded-2xl px-5 py-3 hover:bg-gray-600 duration-1000 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-400 font-bold dark:hover:text-white"
+  >
+    Logout
+  </button>
+
+  <div class="fixed bottom-5 right-5 z-50">
+    <app-theme-toggle type="circle"></app-theme-toggle>
+  </div>
+</section>

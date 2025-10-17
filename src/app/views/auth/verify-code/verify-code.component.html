@@ -1,0 +1,62 @@
+<app-auth-form-layout [divider]="false">
+  <div class="mx-auto flex w-full max-w-md flex-1 flex-col justify-center">
+    <div class="mb-5 sm:mb-8">
+      <h1
+        class="text-title-sm sm:text-title-md mb-2 font-semibold text-gray-800 dark:text-white/90"
+      >
+        Two Step Verification
+      </h1>
+      <p class="text-sm text-gray-500 dark:text-gray-400">
+        A verification code has been sent. Please enter it below.
+      </p>
+    </div>
+
+    <div>
+      <form [formGroup]="verifyCodeForm">
+        <div class="space-y-5">
+          <div>
+            <label
+              class="mb-1.5 block text-sm font-medium text-gray-700 dark:text-gray-400"
+              >Type your 6 digits security code</label
+            >
+
+            <div class="flex gap-2 sm:gap-4" id="otp-container">
+              <input
+                autocomplete="one-time-code"
+                #otp
+                *ngFor="let item of otpLength; let i = index"
+                type="text"
+                maxlength="1"
+                (input)="onInput($event, i)"
+                (keydown)="onKeyDown($event, i)"
+                class="dark:bg-dark-900 otp-input shadow-theme-xs focus:border-brand-300 focus:ring-brand-500/10 dark:focus:border-brand-800 h-11 w-full rounded-lg border border-gray-300 bg-transparent px-4 py-2.5 text-center text-xl font-semibold text-gray-800 placeholder:text-gray-400 focus:ring-3 focus:outline-hidden dark:border-gray-700 dark:bg-gray-900 dark:text-white/90"
+              />
+            </div>
+          </div>
+
+          <div>
+            <button
+              (click)="verifyCode()"
+              class="bg-brand-500 shadow-theme-xs hover:bg-brand-600 flex w-full items-center justify-center rounded-lg px-4 py-3 text-sm font-medium text-white transition"
+            >
+              Verify Code
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- <div class="mt-5">
+        <p
+          class="text-center text-sm font-normal text-gray-700 sm:text-start dark:text-gray-400"
+        >
+          Didn’t get the code?
+          <a
+            href="#"
+            class="text-brand-500 hover:text-brand-600 dark:text-brand-400"
+            >Resend</a
+          >
+        </p>
+      </div> -->
+    </div>
+  </div>
+</app-auth-form-layout>

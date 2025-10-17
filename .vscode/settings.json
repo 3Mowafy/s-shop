@@ -1,0 +1,179 @@
+{
+  "folder-color.pathColors": [
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\login\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\sign-up\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\forgot-password-by-email\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\reset-password\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\verify-code\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\forgot-password-by-phone\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\constants\\apiURL.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\constants\\auth-endpoint.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\animations\\route-animation.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\helper\\error-message.helper.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interceptors\\credentials.interceptor.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interceptors\\error.interceptor.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\ilogin-response.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\ilogin-send-data.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\isignup-send-data.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\isignup-response.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\routings\\auth.routing.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\ireset-password.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\iforgot-email.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\iforgot-phone.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\ilogin.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\isignup.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\iverify-code.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\interfaces\\auth\\imessage-response.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\services\\auth.service.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\vaildators\\password-match.validators.ts\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\shared\\components\\layouts\\auth\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\admin\\brands\\add-brand\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\admin\\brands\\add-brand\\add-brand.component.html\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\admin\\brands\\edit-brand\\"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\admin\\brands\\",
+      "color": "foldercolorizer.color_00cc00"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\routings\\admin.routing\\admin.routing.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\app.config.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\app.routes.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\angular.json\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\guards\\auth.guard.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\guards\\role.guard.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\guards\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\constants\\toastr-messages.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\constants\\api-url.ts\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\auth-form-layout\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\views\\auth\\forgot-password\\",
+      "color": "foldercolorizer.color_0000ff"
+    },
+    {
+      "folderPath": "E-commerce\\src\\app\\core\\animations\\",
+      "color": "foldercolorizer.color_0000ff"
+    }
+  ]
+}

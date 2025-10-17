@@ -1,0 +1,35 @@
+<div class="relative">
+  <input
+    [type]="type"
+    [id]="id"
+    [name]="name"
+    [placeholder]="placeholder"
+    [formControl]="control"
+    [min]="min"
+    [max]="max"
+    [step]="step"
+    [ngClass]="inputClasses"
+    (input)="onInput($event)"
+  />
+  <!-- [disabled]="disabled" -->
+
+  @if (control.touched && errors.length > 0) {
+  <ul class="mt-1.5 text-xs text-error-500 list-disc ms-4">
+    @for (err of errors; track err) {
+      <li [innerHTML]="err"></li>
+    }
+  </ul>
+} @else if (hint) {
+  <p
+    class="mt-1.5 text-xs"
+    [ngClass]="{
+      'text-error-500': error,
+      'text-success-500': success,
+      'text-gray-500': !error && !success
+    }"
+  >
+    {{ hint }}
+  </p>
+}
+
+</div>

@@ -1,0 +1,15 @@
+<div class="flex flex-col mb-4">
+  <label [for]="labelTextareaId" class="mb-1">{{ labelContent }}</label>
+  <textarea
+    [title]="textareaTitle"
+    [id]="labelTextareaId"
+    [formControl]="controlName"
+    class="bg-gray-800 rounded p-2 outline-none border-2 border-amber-300 resize-none"
+    [placeholder]="placeHolder"
+  ></textarea>
+
+  <app-control-errors
+    [control]="controlName"
+    *ngIf="controlName?.invalid && (controlName?.dirty || controlName?.touched)"
+  ></app-control-errors>
+</div>

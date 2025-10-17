@@ -1,0 +1,30 @@
+<header
+  class="flex justify-between items-center py-3 text-amber-300 text-lg shadow-md shadow-amber-300"
+>
+  <div class="flex-1 ms-4">
+    <img src="/images/Logo.jpg" alt="" class="h-16 w-16" />
+  </div>
+
+  <nav class="flex justify-between flex-1">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/brands" routerLinkActive="active">Brands</a>
+    <a routerLink="/cats" routerLinkActive="active">Categories</a>
+  </nav>
+
+  <div class="flex justify-end items-center flex-1 me-4">
+    <main
+      *ngIf="!authService.isLoading()"
+      class="w-fit font-bold cursor-pointer"
+      (click)="authService.user() ? logout() : router.navigate(['/auth'])"
+    >
+      {{ authService.user() ? "Logout" : "Login" }}
+      <span class="text-4xl align-sub ms-1 animate-pulse">&RightArrow;</span>
+    </main>
+  </div>
+</header>
